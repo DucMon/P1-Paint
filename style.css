@@ -1,20 +1,24 @@
-h1,h2{
+h1,
+h2 {
     text-align: center;
 }
 
 #areaForPaint {
     border: 5px solid darkblue;
     height: 450px;
-    background-color: darkgray  ;
+    background-color: darkgray;
     width: 500px;
     position: relative;
     left: 50%;
     margin: 0 -250px;
 }
 
-#paint{
-    margin-top: -275px;
+#paint {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
+
 #tmp_canvas {
     position: absolute;
     left: 0px;
@@ -35,14 +39,14 @@ h1,h2{
     white-space: nowrap;
 }
 
-#tools{
+#tools {
     padding-top: 20px;
     float: left;
     width: 300px;
     margin-left: 100px;
 }
 
-#colors{
+#colors {
     float: left;
     position: absolute;
     margin-top: 310px;
@@ -50,7 +54,7 @@ h1,h2{
     margin-left: 290px;
 }
 
-#manage{
+#manage {
     float: left;
     position: absolute;
     width: 100px;
@@ -58,11 +62,11 @@ h1,h2{
     margin-left: 100px;
 }
 
-#tools *{
+#tools * {
     margin: 5px;
 }
 
-#functions{
+#functions {
     float: left;
     position: absolute;
     width: 200px;
@@ -70,21 +74,26 @@ h1,h2{
     margin-left: 140px;
 }
 
-#functions *{
+#functions * {
     margin: 5px;
 }
 
 
-#copy{
+#copy {
     margin-top: 40px;
 }
 
-#content{
+#content {
     text-align: center;
 }
 
 
-.black, .white, .blue, .green, .yellow, .red {
+.black,
+.white,
+.blue,
+.green,
+.yellow,
+.red {
 
     width: 20px;
     height: 20px;
